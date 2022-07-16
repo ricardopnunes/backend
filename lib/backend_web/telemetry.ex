@@ -1,4 +1,9 @@
 defmodule BackendWeb.Telemetry do
+   @moduledoc """
+  This is the Hello module.
+  """
+  @moduledoc since: "1.0.0"
+
   use Supervisor
   import Telemetry.Metrics
 
